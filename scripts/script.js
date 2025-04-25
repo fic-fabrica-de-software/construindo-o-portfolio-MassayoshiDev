@@ -1,7 +1,7 @@
 window.onload = function() {
     var nome = localStorage.getItem("nome")
-    var n = "a"
-    if (nome !== "Leandro") {
+    var n = nome
+    if (!nome) {
         n = prompt("Insira um nome")
         localStorage.setItem("nome", n)
     }
