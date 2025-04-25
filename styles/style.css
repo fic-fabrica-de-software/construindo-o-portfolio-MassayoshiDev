@@ -21,7 +21,7 @@ header > h1 {
 }
 
 #inventario{
-    width: 80%;
+    width: 700px;
     height: 90px;
     margin: auto;
     margin-top: 30px;
@@ -31,8 +31,7 @@ header > h1 {
 
 #inventario .itemSection{
     width: 25%;
-    border-radius: 10px;
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(255, 187, 0);
     box-shadow: 5px 5px 1px rgb(255, 115, 0);
     display: flex;
 }
@@ -46,5 +45,6 @@ header > h1 {
 }
 
 .sectionCellImg{
-    height: 100%;
+    height: 80%;
+    padding-left: 10px;
 }
