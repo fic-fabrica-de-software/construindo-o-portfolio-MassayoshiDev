@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: wheat;
 }
 
 header{
     height: 60px;
     width: 100%;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(255, 201, 101);
     display: flex;
     justify-content: start;
     align-items: center;
@@ -16,7 +16,6 @@ header{
 header > h1 {
     margin: 0;
     padding: 0;
-    color: white;
     padding-left: 30px;
 }
 
